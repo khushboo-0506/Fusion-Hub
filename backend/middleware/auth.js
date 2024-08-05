@@ -14,5 +14,5 @@ const authMiddleware = async (req,res,next) =>{
      }
 
 }
-
+//token genrate krne k liye pk
 export default authMiddleware;
