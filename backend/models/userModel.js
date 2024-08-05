@@ -8,5 +8,7 @@ const userSchema = new mongoose.Schema({
 },{minimize:false})
 
 const userModel = mongoose.model("user",userSchema);
+//user database 
+//pk
 
 export default userModel;
